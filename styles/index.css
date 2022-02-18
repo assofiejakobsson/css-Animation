@@ -1,0 +1,68 @@
+.card {
+    width: 300px;
+    height: 720px;
+    text-align: center;
+    background-color: bisque;
+    margin: 5px;
+    padding: 20px;
+    font-family: 'Festive', cursive;
+    
+    
+
+}
+
+.fas fa-heart {
+    color:red;
+    
+}
+
+
+
+}
+
+.allergier {
+
+}
+
+.svar {
+
+}
+
+.btn {
+    background-color: rgb(14, 236, 14);
+    width: 110px;
+}
+
+.btn2 {
+    background-color: rgb(255, 0, 0);
+}
+
+.btn:hover {
+    background-color: darkgreen;
+
+}
+
+.btn2:hover {
+    background-color: darkred;
+}
+
+.img__cat:hover {
+    animation-play-state: paused;
+}
+
+@keyframes imgZoom  {
+    0% {transform: scale(1) rotate(0deg);}
+    50% {transform: scale(1.1) rotate(15deg);}
+    100% {transform: scale(1) rotate(0deg);}
+    /*from {transform: scale(1) rotate(0deg);}
+    to {transform: scale(1,1) rotate(15deg);}*/
+}
+
+.img__cat {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    animation: imgZoom 3.5s ease infinite;
+    animation-direction: reverse;
+    animation-fill-mode: none;
